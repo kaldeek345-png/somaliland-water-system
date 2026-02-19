@@ -1,0 +1,45 @@
+/* Midabada Calanka Somaliland */
+:root {
+    --cagaar: #006233;
+    --casan: #cc0000;
+    --cadaan: #ffffff;
+    --madow: #1a1a1a;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: var(--cagaar);
+    color: var(--cadaan);
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 8px solid var(--casan); /* Khadka cas */
+}
+
+.hero {
+    padding: 60px 20px;
+    text-align: center;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.btn {
+    background-color: var(--cagaar);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.btn:hover {
+    background-color: var(--madow);
+}
